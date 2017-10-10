@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         // Start your program here
         // ATTENTION: In your program, you can create only one instance of class Scanner!
+        // These input strings are for quicker testing of functions.
 //        String input = "1\n" + "pekka\n" + "040-123456\n" +
 //                "2\n" + "jukka\n" +
 //                "2\n" + "pekka\n" +

@@ -3,23 +3,17 @@ package dungeon;
 
 public class Main {
     public static void main(String[] args) {
-        new Dungeon(5,5,5,14,true).run();
+        new Dungeon(5,5,5,14,true).run(); // length, height, vampires, moves, vampiresMove
     }
-//CURRENT PROBLEM:
-//Tested Dungeon dungeon = new Dungeon(5,5,3,3,false); dungeon.run();
-//Dungeon line has wrong length. Incorrect line is:
-//            ...vv.
-//    Your whole print output was:
-//    3
-//
-//    @ 0 0
-//    v 3 4
-//    v 3 4
-//    v 4 3
-//
-//    @....
-//    .....
-//    .....
-//    ....v
-//    ...vv.
+    // the game is to destroy all the vampires
+    // moves are made by wasd keys
+    // one loses the game when lamp charges reach 0
+    // and there are vampires remaining on the map.
+    
+    // one bug remains: a vampire clashes with another vampire
+    // and that line is extended by one "."
+    // since it happens only sometimes,
+    // I have moved on to the next exercises,
+    // however I plan on fixing this issue
+    // in the near future.
 }
